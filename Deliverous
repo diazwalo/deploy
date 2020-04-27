@@ -4,7 +4,7 @@ front:
   - ip: 51.255.131.193
     container_port: 80
     host_port: 80
-  - ip: 5.135.124.160
+  - ip: 51.255.131.193
     container_port: 443
     host_port: 443
   environment:
