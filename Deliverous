@@ -1,5 +1,5 @@
 front:
-  image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/deploy:master
+  image: registry.gitlab.com/univlille/defi-agile-iut/groupe-4/deploy:master
   ports:
   - ip: 51.255.131.193
     container_port: 80
@@ -15,9 +15,9 @@ front:
     path: /etc/letsencrypt
 
 java:
-  image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/server:master
+  image: registry.gitlab.com/univlille/defi-agile-iut/groupe-4/server:master
 
 js:
-  image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/client-web:master
+  image: registry.gitlab.com/univlille/defi-agile-iut/groupe-4/client-web:master
 
 
