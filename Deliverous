@@ -1,10 +1,10 @@
 front:
   image: registry.gitlab.com/univlille/defi-agile-iut/groupe-4/deploy:master
   ports:
-  - ip: 51.255.131.193
+  - ip: 217.182.217.149 
     container_port: 80
     host_port: 80
-  - ip: 51.255.131.193
+  - ip: 217.182.217.149 
     container_port: 443
     host_port: 443
   environment:
